@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contant_box{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 50px auto 0;
+    box-shadow: 5px 5px 5px #00000050;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+
+.form_container{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.form_detail{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+input, select, textarea{
+    padding: 6px 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}

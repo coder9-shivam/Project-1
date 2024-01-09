@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 2 PROJECTS</title>
+
+    <link rel="stylesheet" href="Job_form.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="contant_box">
+        <h1>Job Application <span class="small-title">(Web)</span></h1>
+        <form action="">
+            <div class="form_container">
+                
+                <div class="form_detail">
+                    <label for="fname">First-Name:</label>
+                    <input type="text" id="fname" name="first-name" placeholder="Enter Your First Name..." required>
+                </div>
+
+                <div class="form_detail">
+                    <label for="lname">Last-Name:</label>
+                    <input type="text" id="lname" name="last-name" placeholder="Enter Your Last Name...">
+                </div>
+
+                <div class="form_detail">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="Email" placeholder="Enter Your Email Address..." required>
+                </div>
+
+                <div class="form_detail">
+                    <label for="jobrole">Job Role:</label>
+                        <select id="jobrole" name="Job_role" required>
+                            <option value="" placeholder="No select">(No select)</option>
+                            <option value="web-developer">Web       Developer</option>
+                            <option value="frontend-developer">Frontend Developer</option>
+                            <option value="backend-developer">Backend Developer</option>
+                            <option value="software-developer">Software Developer</option>
+                            <option value="app-developer">App Developer</option>
+                            <option value="manager">Manager</option>
+                        </select>
+                </div>
+
+                <div class="form_detail">
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="Address" placeholder="Enter Your Address..." rows="5" cols="35" required></textarea>
+                </div>
+
+                <div class="form_detail">
+                    <label for="city">City:</label>
+                    <select id="city" name="City" required>
+                        <option value="">(No select)</option>
+                        <option value="aligarh">Aligarh</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="nara">Nara</option>
+                        <option value="tokyo">Tokyo</option>
+                    </select>
+                </div>
+
+                <div class="form_detail">
+                    <label for="pincode">Pincode : </label>
+                    <input type="number" id="pincode" name="Pincode" required>
+                </div>
+
+                <div class="form_detail">
+                    <label for="date">Date: </label>
+                    <input type="date" id="date" name="Date" required>
+                </div>
+
+                <div class="form_detail">
+                    <label for="file">Upload Your File: </label>
+                    <input type="file" id="file" name="File" required>
+                </div>
+            </div>
+
+                <div class="submit_button">
+                    <input type="submit" id="apply now" name="Apply now" value="Apply Now">
+
+                    <!-- <button type="submit">Apply Now</button> -->
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
